@@ -24,7 +24,7 @@ class _AttendScreenState extends State<AttendScreen> {
   XFile? image;
   double dLong = 0, dLat = 0;
   final controllerName = TextEditingController();
-  final CollectionReference dataCollection = FirebaseFirestore.instance.collection("data");
+  final CollectionReference dataCollection = FirebaseFirestore.instance.collection("attendance-edit");
 
   @override
   void initState() {
