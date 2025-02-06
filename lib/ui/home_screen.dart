@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                                         context,
                                         MaterialPageRoute(
                                             builder: (context) =>
-                                            const AttendanceScreen()));
+                                            const AttendScreen()));
                                   }),
                               _buildMenuCard(
                                   icon: Icons.camera,
